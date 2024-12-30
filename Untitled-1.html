@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaojing Han's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #6200ea;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 1rem 0;
+            background-color: #3700b3;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .projects, .experience {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background-color: #6200ea;
+            color: white;
+        }
+        .contact {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .contact a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Xiaojing(Sam) Han</h1>
+        <p>Engineer | Robotics Enthusiast | AI Innovator</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Currently an MS student in Electrical and Computer Engineering, focusing on Robotics and Control. I possess strong project leadership, collaboration, and communication skills. I have a solid ability to learn and adapt when faced with challenging tasks.</p>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Robotic Mice</h3>
+                <p>Designed and built robotic mice that sense human heat and move to shaded areas accordingly. Responsible for PCB design, soldering, and ROS control system development.  
+                    <br> Link: 
+                    <br> https://www.instagram.com/p/C73FeUjRETD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+                </p>
+            </div>
+            <div class="card">
+                <h3>Robotic Arm and Material Handling</h3>
+                <p>Developed control scripts for the "Magician" robotic arm, achieving 95% sorting accuracy. Successfully implemented task automation on the "M1" robot using Linux-based control systems.</p>
+            </div>
+            <div class="card">
+                <h3>Lidar Human Tracking</h3>
+                <p>Designed a system to track employees using radar, providing alerts when stepping out of work areas. Focused on radar control and algorithm optimization.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="experience">
+            <div class="card">
+                <h3>Software Intern</h3>
+                <p>Particle Future – Online, California (Nov 2023 - Feb 2024)<br>Created a project to collect and analyze data for AI evaluation, outputting results in JSON format to an online database.</p>
+            </div>
+            <div class="card">
+                <h3>Software Intern</h2>
+                <p>TRS – Beijing, China (Aug 2023 - Sep 2023)<br>Implemented LLM testing module in Python, improving system performance by 10% and reducing runtime latency by 40%.</p>
+            </div>
+            <div class="card">
+                <h3>Capacitor Bank Researcher</h3>
+                <p>Puget Sound Energy – Seattle, Washington (Jan 2024 - Jun 2024)<br>Designed an analysis tool in Excel to improve capacitor performance and tested it using Synergi for positive feedback results.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2 id="contact">Contact Me</h2>
+        <ul class="contact">
+            <li><a href="mailto:Xiaojinghan45@gmail.com">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/xiaojinghan">LinkedIn</a></li>
+            <li><a href="https://github.com/xiaojinghan0902">GitHub</a></li>
+        </ul>
+        <p>&copy; 2024 Xiaojing Han. All rights reserved.</p>
+    </footer>
+</body>
+</html>
